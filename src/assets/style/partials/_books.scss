@@ -1,0 +1,29 @@
+.Books{
+  .title{
+    font-weight: bold;
+    margin-left: 1vw;
+  }
+  .book-list{
+    li{
+      font-size: larger;
+      font-weight: bolder;
+      .delete-btn , .edit-btn{
+        display:none;
+      }
+      &:hover {
+        .delete-btn{
+          color:red;
+          display: inline;
+          cursor: pointer;
+        }
+        .edit-btn{
+          color: orange;
+          display:inline;
+          cursor: pointer;
+        }
+      }
+
+    }
+  }
+
+}
