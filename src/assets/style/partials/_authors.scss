@@ -2,6 +2,12 @@
   .title{
     font-weight: bold;
     margin-left: 1vw;
+    border-bottom: 3px solid black;
+  }
+  .empty-lable{
+    font-weight: normal;
+    font-size:medium ;
+    font-style: italic;
   }
   .author-list{
     li{

@@ -2,11 +2,18 @@
   .title{
     font-weight: bold;
     margin-left: 1vw;
+    border-bottom: 3px solid black;
+  }
+  .empty-lable{
+    font-weight: normal;
+    font-size:medium ;
+    font-style: italic;
   }
   .book-list{
     li{
       font-size: larger;
       font-weight: bolder;
+
       .delete-btn , .edit-btn{
         display:none;
       }
